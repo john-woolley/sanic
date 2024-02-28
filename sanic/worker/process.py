@@ -151,7 +151,7 @@ class WorkerProcess:
             name=self.name,
             target=self.target,
             kwargs=self.kwargs,
-            daemon=True,
+            daemon=False,
         )
 
     @property
